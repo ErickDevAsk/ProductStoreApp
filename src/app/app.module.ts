@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './views/home/home.component';
 import { ProductDetailsComponent } from './views/product-details/product-details.component';
 import { CartComponent } from './views/cart/cart.component';
 import { AboutComponent } from './views/about/about.component';
