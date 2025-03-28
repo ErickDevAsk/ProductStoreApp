@@ -4,6 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 
+//Angular Material
+import {MatCardModule} from '@angular/material/card';
+
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProductDetailsComponent } from './views/product-details/product-details.component';
@@ -23,7 +27,8 @@ import { ProductsComponent } from './views/products/products.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule // <-- Agrega esto
+    RouterModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
