@@ -7,7 +7,9 @@ import { RouterModule } from '@angular/router';
 //Angular Material
 import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
-
+import {MatButtonModule} from '@angular/material/button';
+import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
@@ -30,7 +32,10 @@ import { ProductsComponent } from './views/products/products.component';
     AppRoutingModule,
     RouterModule,
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule,
+    MatTooltipModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
