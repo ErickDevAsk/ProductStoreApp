@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 
 //Angular Material
 import {MatCardModule} from '@angular/material/card';
+import {MatIconModule} from '@angular/material/icon';
 
 
 import { AppComponent } from './app.component';
@@ -28,7 +29,8 @@ import { ProductsComponent } from './views/products/products.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule,
-    MatCardModule
+    MatCardModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
