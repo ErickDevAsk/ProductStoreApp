@@ -9,23 +9,23 @@ export class CartComponent {
   productosCarrito = [
     {
       titulo: 'Audifonos Bluetooth',
-      imagen: ''
+      imagen: 'assets/images/audifonos.jpg'
     },
     {
       titulo: 'Smartwatch Xiaomi',
-      imagen: ''
+      imagen: 'assets/images/smartwatch.jpg'
     },
     {
       titulo: 'Camara WEB HD',
-      imagen: ''
+      imagen: 'assets/images/camara.jpg'
     },
     {
       titulo: 'Disco Duro Externo',
-      imagen: ''
+      imagen: 'assets/images/discoduro.jpg'
     },
     {
       titulo: 'Bocina Portatil',
-      imagen: ''
+      imagen: 'assets/images/bocina.jpg'
     }
   ];
 }
